@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hand Landmarks Detection</title>
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.min.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <h1>Hand Landmarks Detection</h1>
+            <video id="input_video" style="display: none"></video>
+            <canvas id="output_canvas" width="840" height="480"></canvas>
+        </div>
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>
